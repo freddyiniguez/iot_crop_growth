@@ -1,5 +1,5 @@
 # Internet de las Cosas y el crecimiento de cultivos: una revisión sistemática
-## Mathematics Research Center, A.C.
+## Centro de Investigación en Matemáticas, A.C.
 
-## Purpose
-The purpose of this repository is to write a draft-article about the techniques used to determine the better environment conditions of a specific crop, in order to apply a BigData prediction and help to accelerate its growth.
+## Propósito del repositorio
+El propósito del presente trabajo es servir de base para el desarrollo de una propuesta de artículo sobre la revisión sistemática del Internet de las cosas y el crecimiento de los cultivos. Lo anterior como parte de las actividades requeridas para la acreditación del curso Estudio Guiado I de la Maestría en Ingeniería de Software.
