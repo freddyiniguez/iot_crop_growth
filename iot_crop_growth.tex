@@ -1,4 +1,4 @@
-% iot_crop_growth.tex - Internet de las Cosas y el crecimiento de cultivos: una revisión sistemática
+% iot_crop_growth.tex - Aplicaciones de IoT para la mejora de cultivos
 \documentclass[10pt, twocolumn]{article}
 
 % ----------------------------------------------------- PAQUETES ----------------------------------------------------- %
@@ -15,7 +15,8 @@
 % - Internet de las Cosas y el crecimiento de cultivos: una revisión sistemática
 % - Internet de las Cosas y el crecimiento apresurado de cultivos: una revisión sistemática
 % - Internet de las Cosas y la agricultura: una revisión sistemática
-\title{\textbf{Internet de las Cosas y el crecimiento de cultivos: una revisión sistemática}}
+% - Aplicaciones de IoT para la mejora de cultivos
+\title{\textbf{Aplicaciones de IoT para la mejora de cultivos}}
 \author{Freddy Íñiguez López\\
 	Centro de Investigación en Matemáticas, A.C.,\\
 	Zacatecas, México,\\
@@ -33,7 +34,7 @@
 [En desarrollo]
 \end{abstract}
 \paragraph{}
-\textbf{Keywords} Internet de las Cosas | IoT | Agricultura | Sobrepoblación
+\textbf{Keywords} Internet de las Cosas | IoT | Agricultura | Sobrepoblación | Sustentabilidad
 
 % ----------------------------------------------------- INTRODUCCIÓN ----------------------------------------------------- %
 \section{INTRODUCCIÓN}
@@ -49,11 +50,25 @@
 
 \subsection{Antecedentes}
 % El razonamiento de la revisión
-\paragraph{A comienzos de los años 1800, la humanidad celebraba un gran acontecimiento: nos había tomado cerca de 250,000 años para llegar a ser 1,000,000,000 de personas en el mundo. Sin embargo, a partir de la revolución industrial, el crecimiento de la población fue en aumento de manera desmesurada. El segundo billón de personas llego apenas después de 127 años, en 1928. El tercer billón llegó en 1921, luego de 33 años. Para el cuarto billón de personas se necesitaron 14 años. Para 1988, celebrábamos el haber alcanzado los 5 billones de personas en el mundo. Tiempo después, de manera menos exponencial, bastaron 12 años para alcanzar la cifra de los 6 y 7 billones de personas, en el año 2000 y 2012 respectivamente. Para el primero de julio de 2015, se estimó que habíamos en nuestro planeta tierra 7.349 billones de personas, acontecimiento que ya no lo celebramos de manera tan amena dadas las condiciones de inseguridad, pobreza, hambruna, entre tantas más que vivimos.}
+% Problema 0: Sobrepoblación
+\paragraph{A comienzos de los años 1800, la humanidad celebraba un gran acontecimiento: nos había tomado cerca de 250,000 años para llegar a ser 1,000,000,000 de personas en el mundo. Sin embargo, a partir de la revolución industrial, el crecimiento de la población fue en aumento de manera desmesurada. El segundo billón de personas llego apenas después de 127 años, en 1928. El tercer billón llegó en 1921, luego de 33 años. Para el cuarto billón de personas se necesitaron 14 años. Para 1988, celebrábamos el haber alcanzado los 5 billones de personas en el mundo. Tiempo después, de manera menos exponencial, bastaron 12 años para alcanzar la cifra de los 6 y 7 billones de personas, en el año 2000 y 2012 respectivamente. Para el primero de julio de 2015, se estimó que habitábamos en nuestro planeta tierra 7.349 billones de personas, acontecimiento que ya no lo celebramos de manera tan amena dadas las condiciones de inseguridad, pobreza, hambruna, entre tantas más que vivimos.}
 
+% Problema 1: Mayor demanda de comida
+% Problema 2: Condiciones climáticas afectan cultivos
 \paragraph{De acuerdo con el reporte del panel para la sustentabilidad global de la Secretaría General de las Naciones Unidas, para el año 2030 la población requerirá de por lo menos 50\% más comida, 45\% más energía y 30\% más agua~\cite{globalsustainabilityreport}. Hablando específicamente de la situación alimenticia a futuro, se estima que para el año 2050 la demanda de comida crezca un 70 por ciento con respecto a la demanda actual. \\ Además, cabe mencionar que las condiciones climáticas que vivimos hoy en día son producto del cambio climático y del calentamiento global, problemas ambientales que si se presentan en condiciones extremas pueden llegar a afectar a la mayoría de los cultivos, empeorando la situación del suministro de comida.}
 
-\paragraph{Por tal razón, es de vital importancia que se desarrollen estrategias que ayuden a combatir esta serie de problemas que se preveen para el futuro. En el caso de incrementar los suministros de comida, se deben implementar estrategias para que los campos de cultivo generen una mayor cantidad de alimento, o que puedan generar la misma cantidad de alimento pero tener más temporadas de producción al año.}
+% Problema 3: Uso excesivo de herbicidas
+\paragraph{Y por si las condiciones climáticas fueran ya un problema grave que afecta el crecimiento de los cultivos, es importante hacer notar que el uso de herbicidas utilizados para eliminar algunas plantas indeseadas en los campos de cultivos o abonos que ayudan en el desarrollo de los mismos, afectan negativamente tanto al ambiente, como a ciertos animales, especialmente disminuye la capacidad y nutrientes del suelo. Lo anterior se convierte en un problema recursivo, ya que en el afán de incrementar la producción de cultivos, se hace uso excesivo de herbicidas, lo que daña al ambiente y a las condiciones nutrimentales del suelo, lo que impide que los cultivos se desarrollen adecuadamente.}
+
+% Motivación de la investigación
+\paragraph{Por tal razón, es de vital importancia que se desarrollen estrategias que ayuden a combatir esta serie de problemas que se preveen para el futuro. En lugar de utilizar herbicidas de una manera descontrolada, se deben implementar estrategias para que los campos de cultivo generen una mayor cantidad de alimento, o que puedan generar la misma cantidad de alimento pero tener más temporadas de producción al año, de una manera sustentable y que sea amigable con el ambiente y con el suelo.}
+
+% Propuesta
+\paragraph{De tal manera, 
+1) Determinar las condiciones climáticas y de suelo de los cultivos
+2) Desarrollar un modelo probabilístico que te ayude a inferir las acciones que apoyen a mantener un estado óptimo en los cultivos, y 
+3) cerlo sustentable,
+4) hacer que produzca más}
 
 % LA PRODUCCIÓN DE ALIMENTOS NO ES SEGURA A CAUSA DEL USO DE FERTILIZANTES Y PLAGUICIDAS.
 
@@ -75,17 +90,24 @@
 % Los recursos incluyen bibliotecas digitales, revistas específicas y actas de congresos.
 \paragraph{Para la búsqueda de estudios primarios es necesario definir las cadenas o términos de búsqueda así como también las fuentes en donde serán aplicadas estas búsquedas, como revistas científicas, bases de datos, libros electrónicos u otros recursos libres y bibliotecas. \\ De tal manera, se muestran a continuación las cadenas de búsqueda a aplicar.}
 \begin{itemize}
-	\item{Internet of Things OR IoT AND crop growth}
-	\item{Internet of Things OR IoT AND agro-industry}
-	\item{Internet of Things OR IoT AND food production}
-	\item{Internet of Things OR IoT AND rapid crop growth}
-	\item{Internet of Things OR IoT AND accelerated crop growth}
+	\item{Internet of Things OR IoT AND crop AND growth}
+	\item{Internet of Things OR IoT AND agriculture}
+	\item{Internet of Things OR IoT AND food AND production}
+	% Cadenas de búsqueda añadidas:
+	\item{Internet of Things OR IoT AND sustainable AND agriculture}
+	\item{Internet of Things OR IoT AND sustainable AND crop}
+	\item{Internet of Things OR IoT AND predictable AND model AND agriculture}
+	% Cadenas de búsqueda descartadas:
+	%\item{Internet of Things OR IoT AND rapid crop growth}
+	%\item{Internet of Things OR IoT AND accelerated crop growth}
 \end{itemize}
 \paragraph{Y para el caso de las fuentes que serán utilizadas se muestran a continuación aquellas seleccionadas por su alto grado de relevancia en el campo científico.}
 \begin{itemize}
 	\item{ACM Digital Library}
 	\item{IEEE Explore}
 	\item{SpringerLink}
+	\item{Elsevier Science}
+	\item{AGRIS: International Information System for the Agricultural Science and Technology}
 \end{itemize}
 
 \subsection{Criterios de selección de estudios}
@@ -118,6 +140,8 @@
 	\item{Sistemas de producción agrícola tradicionales.}
 	\item{Sistemas o aplicaciones de distribución y producción agrícola tradicionales.}
 	\item{Investigaciones sobre sistemas inteligentes de granjas o \textit{smart farm} para la detección temprana de plagas.}
+	\item{Investigaciones sobre enfermedades en los cultivos.}
+	\item{Investigaciones sobre nuevas variedades de cultivos.}
 	\item{Investigaciones sobre Internet de las Cosas.}
 	\item{Investigaciones sobre agricultura.}
 \end{itemize}
