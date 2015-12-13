@@ -1,5 +1,6 @@
 % iot_crop_growth.tex - Aplicaciones de IoT para la mejora de cultivos
 \documentclass[10pt, twocolumn]{article}
+%\documentclass[10pt]{report}
 
 % ----------------------------------------------------- PAQUETES ----------------------------------------------------- %
 % Lista de paquetes utilizados
@@ -51,26 +52,47 @@
 \subsection{Antecedentes}
 % El razonamiento de la revisión
 % Problema 0: Sobrepoblación
-\paragraph{A comienzos de los años 1800, la humanidad celebraba un gran acontecimiento: nos había tomado cerca de 250,000 años para llegar a ser 1,000,000,000 de personas en el mundo. Sin embargo, a partir de la revolución industrial, el crecimiento de la población fue en aumento de manera desmesurada. El segundo billón de personas llego apenas después de 127 años, en 1928. El tercer billón llegó en 1921, luego de 33 años. Para el cuarto billón de personas se necesitaron 14 años. Para 1988, celebrábamos el haber alcanzado los 5 billones de personas en el mundo. Tiempo después, de manera menos exponencial, bastaron 12 años para alcanzar la cifra de los 6 y 7 billones de personas, en el año 2000 y 2012 respectivamente. Para el primero de julio de 2015, se estimó que habitábamos en nuestro planeta tierra 7.349 billones de personas, acontecimiento que ya no lo celebramos de manera tan amena dadas las condiciones de inseguridad, pobreza, hambruna, entre tantas más que vivimos.}
+\paragraph{A comienzos de los años 1800, la humanidad celebraba un gran acontecimiento: nos había tomado cerca de 250,000 años para llegar a ser 1,000,000,000 de personas en el mundo. Sin embargo, a partir de la revolución industrial, el crecimiento de la población fue en aumento de manera descontrolada. El segundo billón de personas llego apenas después de 127 años, en 1928. El tercer billón llegó en 1921, luego de 33 años. Para el cuarto billón de personas se necesitaron 14 años. Para 1988, celebrábamos el haber alcanzado los 5 billones de personas en el mundo. Tiempo después, de manera menos exponencial, bastaron 12 años para alcanzar la cifra de los 6 y 7 billones de personas, en el año 2000 y 2012 respectivamente. Para el primero de julio de 2015, se estimó que habitábamos en nuestro planeta tierra 7.349 billones de personas, acontecimiento que ya no celebramos de manera tan amena dadas las condiciones de inseguridad, pobreza, hambruna, problemas de salud, entre tantas más que vivimos.}
 
 % Problema 1: Mayor demanda de comida
 % Problema 2: Condiciones climáticas afectan cultivos
 \paragraph{De acuerdo con el reporte del panel para la sustentabilidad global de la Secretaría General de las Naciones Unidas, para el año 2030 la población requerirá de por lo menos 50\% más comida, 45\% más energía y 30\% más agua~\cite{globalsustainabilityreport}. Hablando específicamente de la situación alimenticia a futuro, se estima que para el año 2050 la demanda de comida crezca un 70 por ciento con respecto a la demanda actual. \\ Además, cabe mencionar que las condiciones climáticas que vivimos hoy en día son producto del cambio climático y del calentamiento global, problemas ambientales que si se presentan en condiciones extremas pueden llegar a afectar a la mayoría de los cultivos, empeorando la situación del suministro de comida.}
 
 % Problema 3: Uso excesivo de herbicidas
-\paragraph{Y por si las condiciones climáticas fueran ya un problema grave que afecta el crecimiento de los cultivos, es importante hacer notar que el uso de herbicidas utilizados para eliminar algunas plantas indeseadas en los campos de cultivos o abonos que ayudan en el desarrollo de los mismos, afectan negativamente tanto al ambiente, como a ciertos animales, especialmente disminuye la capacidad y nutrientes del suelo. Lo anterior se convierte en un problema recursivo, ya que en el afán de incrementar la producción de cultivos, se hace uso excesivo de herbicidas, lo que daña al ambiente y a las condiciones nutrimentales del suelo, lo que impide que los cultivos se desarrollen adecuadamente.}
+\paragraph{Y por si las condiciones climáticas fueran ya un problema grave que afecta el crecimiento de los cultivos, es importante hacer notar que utilizar herbicidas, fertilizantes y plaguicidas afectan negativamente tanto al ambiente como a ciertos animales, especialmente disminuye la capacidad y nutrientes del suelo. Lo anterior se convierte en un problema recursivo, ya que en el afán de incrementar la producción de cultivos, se hace uso excesivo de herbicidas, lo que daña al ambiente y a las condiciones nutrimentales del suelo, lo que impide que los cultivos se desarrollen adecuadamente.}
 
 % Motivación de la investigación
 \paragraph{Por tal razón, es de vital importancia que se desarrollen estrategias que ayuden a combatir esta serie de problemas que se preveen para el futuro. En lugar de utilizar herbicidas de una manera descontrolada, se deben implementar estrategias para que los campos de cultivo generen una mayor cantidad de alimento, o que puedan generar la misma cantidad de alimento pero tener más temporadas de producción al año, de una manera sustentable y que sea amigable con el ambiente y con el suelo.}
 
-% Propuesta
-\paragraph{De tal manera, 
-1) Determinar las condiciones climáticas y de suelo de los cultivos
-2) Desarrollar un modelo probabilístico que te ayude a inferir las acciones que apoyen a mantener un estado óptimo en los cultivos, y 
-3) cerlo sustentable,
-4) hacer que produzca más}
+% Propuesta:
+% 1) Obtener condiciones de desarrollo y ambientales de los cultivos, utilizando IoT, (obtener condiciones de los cultivos)
+% 2) Desarrollo de modelo propabilístico que ayude a mantener las estables y óptimas las condiciones de crecimiento de los cultivos, haciendo inferencias para con los cambios de clima o desastres naturales que pudieran afectar, (desarrollo de modelo que mantenga estable y óptimo su crecimiento)
+% 3) Investigación en agro-industria para modelo de desarrollo de cultivos sustentable, (de manera sustentable) y
+% 4) Investigación en agro-industria para modelo de desarrollo acelerado de cultivos (para producir más).
+\paragraph{El presente trabajo de investigación forma parte de una de las primeras etapas para la obtención de un nuevo modelo de producción agrícola sustentable, el cual es una propuesta que da solución al problema de demanda de alimento en un futuro. \\ Se cree que la propuesta completa podría dividirse en cuatro etapas, las cuales se describen de manera general a continuación:}
+\begin{enumerate}
+	\item{Obtener condiciones ambientales y de desarrollo de los cultivos, utilizando técnicas de Internet de las Cosas,}
+	\item{Desarrollo de un modelo propabilístico que ayude a mantener estables y óptimas las condiciones de crecimiento de los cultivos, haciendo inferencias para con los cambios de clima o temporadas que pudieran afectar su crecimiento,}
+	\item{Investigación en agro-industria para desarrollo de modelo de cultivos sustentable, y}
+	\item{Investigación en agro-industria para acelerar el crecimiento de los cultivos.}
+\end{enumerate}
+\paragraph{De tal manera, el presente trabajo se enfoca en la primera etapa de esta propuesta, para lo cual es necesario conocer las estrategias, técnicas y métodos actuales que se utilizan en la agricultura para la obtención de las características ambientales de los cultivos utilizando técnicas de Internet de las Cosas.}
 
-% LA PRODUCCIÓN DE ALIMENTOS NO ES SEGURA A CAUSA DEL USO DE FERTILIZANTES Y PLAGUICIDAS.
+\subsection{Objetivos}
+\subsubsection{Objetivo general}
+\begin{itemize}
+	\item{Conocer las estrategias, métodos o procedimientos basados en Internet de las Cosas que existen en la actualidad para determinar las características ambientales y de crecimiento de los cultivos.}
+\end{itemize}
+\subsubsection{Objetivos específicos}
+\begin{itemize}
+	\item{Definir la motivación de la investigación.}
+	\item{Concretar objetivos y pregunta de investigación.}
+	\item{Definer palabras clave, cadenas de búsqueda y criterios de exclusión e inclusión.}
+	\item{Aplicar las búsquedas para la obtención de artículos.}
+	\item{Aplicar los criterios de exclusión e inclusión para la obtención de estudios primarios.}
+	\item{Realizar un análisis a los estudios primarios obtenidos.}
+	\item{Obtener resultados, conclusiones y presentarlos.}
+\end{itemize}
 
 \subsection{Pregunta de investigación}
 % Las preguntas que la investigación pretende responder.
@@ -82,14 +104,14 @@
 % Salidas: ayudar a tener condiciones óptimas en los cultivos.
 % Contexto:
 \begin{itemize}
-	\item{¿Qué herramientas, estrategias o métodos enfocados al Internet de las Cosas existen para determinar las condiciones óptimas de los cultivos que ayuden a incrementar o a acelerar la producción de los mismos?}
+	\item{¿Qué herramientas, estrategias o métodos enfocados al Internet de las Cosas existen para determinar las características ambientales y de crecimiento de los cultivos?}
 \end{itemize}
 
 \subsection{Estrategia}
 % Estrategia que se utilizará para la búsqueda de estudios primarios incluyendo términos de búsqueda y los recursos en los que serán buscados.
 % Los recursos incluyen bibliotecas digitales, revistas específicas y actas de congresos.
 \paragraph{Para la búsqueda de estudios primarios es necesario definir las cadenas o términos de búsqueda así como también las fuentes en donde serán aplicadas estas búsquedas, como revistas científicas, bases de datos, libros electrónicos u otros recursos libres y bibliotecas. \\ De tal manera, se muestran a continuación las cadenas de búsqueda a aplicar.}
-\begin{itemize}
+\begin{enumerate}
 	\item{Internet of Things OR IoT AND crop AND growth}
 	\item{Internet of Things OR IoT AND agriculture}
 	\item{Internet of Things OR IoT AND food AND production}
@@ -100,7 +122,7 @@
 	% Cadenas de búsqueda descartadas:
 	%\item{Internet of Things OR IoT AND rapid crop growth}
 	%\item{Internet of Things OR IoT AND accelerated crop growth}
-\end{itemize}
+\end{enumerate}
 \paragraph{Y para el caso de las fuentes que serán utilizadas se muestran a continuación aquellas seleccionadas por su alto grado de relevancia en el campo científico.}
 \begin{itemize}
 	\item{ACM Digital Library}
@@ -144,48 +166,64 @@
 	\item{Investigaciones sobre nuevas variedades de cultivos.}
 	\item{Investigaciones sobre Internet de las Cosas.}
 	\item{Investigaciones sobre agricultura.}
+	\item{Estudios repetidos.}
 \end{itemize}
 
 \subsection{Procedimientos de selección de estudios}
 % El protocolo debe describir cómo serán aplicados los criterios de selección. Por ejemplo, cuántos asesores evaluarán cada estudio primario prospecto.
 % Cómo serán resueltos los desacuerdos entre asesores.
-\paragraph{[En desarrollo]}
-
-\subsection{Procedimientos y listas de revisión para evaluar la calidad del estudio}
-% Los investigadores deben desarrollar listas de revisión para evaluar los estudios primarios.
-% El propósito de la evaluación de la calidad guiará el desarrollo de las listas de revisión.
-\paragraph{[En desarrollo]}
+\paragraph{El procedimiento para la selección de estudios primarios se concentrará en la evaluación de los criterios de exclusión e inclusión descritos en la sección anterior. Es decir, primeramente se comparará cada artículo resultado de la búsqueda con cada uno de los criterios de exclusión en el orden en el que estos aparecen. Al momento en el que alguno de los criterios de exclusión coincida con el artículo, éste se descartará y se procederá a evaluar el siguiente artículo. Si al agotar cada uno de los criterios de exclusión el artículo no ha sido descartado, se procede a compararlo con cada uno de los criterios de inclusión. \\ De igual manera, el artículo será comparado con cada uno de los criterios de inclusión conforme fueron escritos anteriormente. En el momento en el que el artículo coincida con algún criterio de inclusión, se procederá a conservar dicho artículo y se continuará evaluando los artículos restantes. En todo caso, si al agotar la lista completa de criterios de inclusión el artículo no coincidió con alguno, éste será conservado temporalmente y se discutirá con el asesor la permanencia o descarte de este artículo.}
 
 \subsection{Estrategia de extracción de datos}
 % Ésta define cómo la información requerida de cada estudio primario será obtenida.
 % Si los datos requieren manipulación o suposiciones e inferencias, el protocolo debe especificar un proceso de validación apropiado.
-\paragraph{[En desarrollo]}
+\paragraph{Una vez que los criterios de inclusión y exclusión hayan sido aplicados, es necesario realizar un análsis a los estudios primarios con la intención de obtener la información requerida para contestar la pregunta de investigación y cumplir con los objetivos. \\ En el caso de este trabajo, la pregunta de investigación se concentra en conocer las técnicas, herramientas y métodos para la obtención de las características ambientales y de crecimiento de los cultivos. \\ Sin embargo, la descripción de un método puede llegar a ser algo extensa como para que se mencione de manera explícita, sino más bien el autor dará una descripción detallada del método, los protocolos utilizados y la manera en la que opera. Por tanto, el proceso para obtener esta información será el siguiente:}
+\begin{enumerate}
+	\item{Lectura del resumen o abstract en busca del nombre del método, técnica o herramienta utilizada para la obtención de las características ambientales de los cultivos.}
+	\item{Lectura de la metodología utilizada, descripción de la arquitectura propuesta, descripción del diseño y partes que componen el método, sección de implementación o sección crítica y principal de cada artículo, con la intención de identificar el protocolo y detalle de operación del método, técnica o herramienta descrita.}
+\end{enumerate}
 
 \subsection{Síntesis de datos extraídos}
 % Definir una estrategia para síntesis de datos.
 % Esta estrategia debe aclarar si se pretende aplicar un meta-análisis formal o no, y en caso de aplicarse, qué técnicas se aplicarán.
-\paragraph{[En desarrollo]}
+\paragraph{La información relevante de cada uno de los artículos debe estar enfocada en responder a la pregunta de investigación de una manera sencilla, pero a la vez detallada en caso de que se requiera profundizar en el tema. Por tanto, la información requerida para responder a la pregunta de investigación debe ser fácil de identificar para cada uno de los artículos. \\ De esta manera, se pretende recopilar en una tabla la siguiente información:}
+\begin{itemize}
+	\item{Nombre del artículo,}
+	\item{Nombre del método, técnica o herramienta que se utiliza para la obtención de las condiciones ambientales y de crecimiento de los cultivos,}
+	\item{Protocolo de comunicación utilizado,}
+	\item{Descripción general del método, técnica o herramienta,}
+	\item{Resultados obtenidos o factibilidad del método.}
+\end{itemize}
 
 \subsection{Estrategia de diseminación}
 % Para quién serán importantes los resultados de la revisión sistemática.
-% Planificar cómo será realizada la difución de los resultados de la revisión sistemática.
-\paragraph{[En desarrollo]}
-
-\subsection{Calendarización del proyecto}
-% Este debe definir el calendario de revisiones
-\paragraph{[En desarrollo]}
+% Planificar cómo será realizada la difusión de los resultados de la revisión sistemática.
+\paragraph{Finalmente, los resultados de la presente revisión sistemática deberán sintetizar las distintas maneras en la que actualmente se obtienen las características ambientales y de crecimiento de ciertos cultivos, además de mencionar si estas técnicas y herramientas son factibles de implementar, o en todo caso cuáles son las dificultades que se tienen para hacer de este método una solución factible.}
 
 % ----------------------------------------------------- METODOLOGÍA DE INVESTIGACIÓN ----------------------------------------------------- %
 % Etapa de la ejecución de la revisión sistemática.
-\section{METODOLOGÍA DE INVESTIGACIÓN}
-\paragraph{[En desarrollo]}
-% Review method
-% 	- Data sources and search strategy
-% 	- Study selection
-% 	- Study quality assessment
-% 	- Data extraction
-% 	- Data synthesis
-% Included and excluded studies
+\section{EJECUCIÓN DE LA METODOLOGÍA}
+\paragraph{En este capítulo se presentan los resultados obtenidos al seguir el procedimiento definido para la aplicación de las cadenas de búsquedas y la aplicación de los criterios de inclusión y exclusión para la obtención de los estudios primarios.}
+
+\subsection{Resultados de las búsquedas}
+\paragraph{Toda vez que las cadenas de búsqueda han sido definidas, al igual que fuentes donde serán aplicadas las primeras y los criterios de inclusión y exclusión para la obtención de estudios primarios, se procede a realizar las búsquedas correspondientes. \\ Podemos ver que los resultados de las búsquedas han sido resumidos en una sola tabla (ver Tabla 1). En este caso, cabe mencionar que la búsqueda avanzada en algunas de las fuentes, como AGRIS y SpringerLink, no existía o no se podían especificar ciertos criterios, por lo que en algunos resultados se obtienen datos muy altos debido a que la cadena de búsqueda fue aplicada tal y como se definió.}
+\begin{table}[]
+\centering
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+\multicolumn{1}{|c|}{\textbf{Fuente}} & \multicolumn{6}{c|}{\textbf{Cadenas de búsqueda}}                                                                                                                                                         \\ \hline
+                                      & \multicolumn{1}{c|}{\textbf{1}} & \multicolumn{1}{c|}{\textbf{2}} & \multicolumn{1}{c|}{\textbf{3}} & \multicolumn{1}{c|}{\textbf{4}} & \multicolumn{1}{c|}{\textbf{5}} & \multicolumn{1}{c|}{\textbf{6}} \\ \hline
+ACM                                   & 0                              & 4                              & 1                              & 1                              & 0                              & 0                              \\ \hline
+IEEE                                  & 11                              & 81                              & 16                              & 10                              & 2                              & 0                              \\ \hline
+SpringerLink                          & 2,363                              & 5,982                              & 9,616                         	     & 2,604                              & 1,397                              & 593                              \\ \hline
+Elsevier                              & 1,459                              & 3,795                              & 6,356                              & 1,551                              & 850                              & 320                              \\ \hline
+AGRIS                                 & 8,061                              & 743,172                              & 8,254                              & 1,651                              & 910                              & 1                              \\ \hline
+\end{tabular}
+\caption{Resultados de las búsquedas.}
+\label{tabla:busquedas}
+\end{table}
+
+\paragraph{120 artículos}
 
 % ----------------------------------------------------- RESULTADOS ----------------------------------------------------- %
 % Etapa de reportar resultados de la revisión sistemática.
